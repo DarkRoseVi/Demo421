@@ -54,9 +54,10 @@ namespace HabibyLLin421P.Pages
             if (SortSort.SelectedIndex == 4) agentList = agentList.OrderBy(x => x.Priority).ToList();
             if (SortSort.SelectedIndex == 5) agentList = agentList.OrderByDescending(x => x.Priority).ToList();
 
-            //if (SearchSort.Text != null) agentList = agentList.Where(x => x.Email.ToLower().Contains(SearchSort.Text.ToLower()));
+            if (SearchSort.Text != null) agentList = agentList.Where(x => x.Email.Contains(SearchSort.Text.ToLower())).ToList();
+            if (SearchSort.Text != null) agentList = agentList.Where(x => x.Phone.Contains(SearchSort.Text.ToLower())).ToList();
 
-
+            
 
             if (TypeSort.SelectedItem != null) agentList = agentList.Where(x => x.AgentTypeID == TypeSort.SelectedIndex+2).ToList();
 
