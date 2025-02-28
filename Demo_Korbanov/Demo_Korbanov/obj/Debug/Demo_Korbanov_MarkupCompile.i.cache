@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\212109\source\repos\Demo421\Demo_Korbanov\Demo_Korbanov\App.xaml
-3-1665430455
+41583500121
 22072865281
-25-2092414923
+26-460620595
 18264440949
-MainWindow.xaml;pages\agents_list_page.xaml;ucs\agent_uc.xaml;
+MainWindow.xaml;pages\agents_list_page.xaml;pages\agent_full_info_page.xaml;ucs\agent_uc.xaml;
 
 True
 

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|c:\\users\\212109\\source\\repos\\demo421\\demo_korbanov\\demo_korbanov\\ucs\\agent_uc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|solutionrelative:demo_korbanov\\ucs\\agent_uc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|c:\\users\\212109\\source\\repos\\demo421\\demo_korbanov\\demo_korbanov\\ucs\\agent_uc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|solutionrelative:demo_korbanov\\ucs\\agent_uc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|c:\\users\\212109\\source\\repos\\demo421\\demo_korbanov\\demo_korbanov\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|solutionrelative:demo_korbanov\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|c:\\users\\212109\\source\\repos\\demo421\\demo_korbanov\\demo_korbanov\\ucs\\agent_uc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|solutionrelative:demo_korbanov\\ucs\\agent_uc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|c:\\users\\212109\\source\\repos\\demo421\\demo_korbanov\\demo_korbanov\\pages\\agent_full_info_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|solutionrelative:demo_korbanov\\pages\\agent_full_info_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|c:\\users\\212109\\source\\repos\\demo421\\demo_korbanov\\demo_korbanov\\pages\\agent_full_info_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|solutionrelative:demo_korbanov\\pages\\agent_full_info_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|c:\\users\\212109\\source\\repos\\demo421\\demo_korbanov\\demo_korbanov\\pages\\agents_list_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -31,6 +35,10 @@
       "RelativeMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|solutionrelative:demo_korbanov\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|c:\\users\\212109\\source\\repos\\demo421\\demo_korbanov\\demo_korbanov\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|solutionrelative:demo_korbanov\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|c:\\users\\212109\\source\\repos\\demo421\\demo_korbanov\\demo_korbanov\\db\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{44101FB1-E04E-451C-82B5-4D83CBA2716D}|Demo_Korbanov\\Demo_Korbanov.csproj|solutionrelative:demo_korbanov\\db\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
@@ -42,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +58,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "agent_full_info_page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\pages\\agent_full_info_page.xaml.cs",
+              "RelativeDocumentMoniker": "Demo_Korbanov\\pages\\agent_full_info_page.xaml.cs",
+              "ToolTip": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\pages\\agent_full_info_page.xaml.cs",
+              "RelativeToolTip": "Demo_Korbanov\\pages\\agent_full_info_page.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvyMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T13:27:54.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "agent_full_info_page.xaml",
+              "DocumentMoniker": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\pages\\agent_full_info_page.xaml",
+              "RelativeDocumentMoniker": "Demo_Korbanov\\pages\\agent_full_info_page.xaml",
+              "ToolTip": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\pages\\agent_full_info_page.xaml",
+              "RelativeToolTip": "Demo_Korbanov\\pages\\agent_full_info_page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-28T13:27:31.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "agent_uc.xaml.cs",
               "DocumentMoniker": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\ucs\\agent_uc.xaml.cs",
               "RelativeDocumentMoniker": "Demo_Korbanov\\ucs\\agent_uc.xaml.cs",
-              "ToolTip": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\ucs\\agent_uc.xaml.cs*",
-              "RelativeToolTip": "Demo_Korbanov\\ucs\\agent_uc.xaml.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAqAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\ucs\\agent_uc.xaml.cs",
+              "RelativeToolTip": "Demo_Korbanov\\ucs\\agent_uc.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwCsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T13:07:22.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "agent_uc.xaml",
               "DocumentMoniker": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\ucs\\agent_uc.xaml",
               "RelativeDocumentMoniker": "Demo_Korbanov\\ucs\\agent_uc.xaml",
@@ -79,32 +112,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "agents_list_page.xaml.cs",
               "DocumentMoniker": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\pages\\agents_list_page.xaml.cs",
               "RelativeDocumentMoniker": "Demo_Korbanov\\pages\\agents_list_page.xaml.cs",
               "ToolTip": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\pages\\agents_list_page.xaml.cs",
               "RelativeToolTip": "Demo_Korbanov\\pages\\agents_list_page.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswCwAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T12:52:26.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "agents_list_page.xaml",
               "DocumentMoniker": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\pages\\agents_list_page.xaml",
               "RelativeDocumentMoniker": "Demo_Korbanov\\pages\\agents_list_page.xaml",
-              "ToolTip": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\pages\\agents_list_page.xaml*",
-              "RelativeToolTip": "Demo_Korbanov\\pages\\agents_list_page.xaml*",
+              "ToolTip": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\pages\\agents_list_page.xaml",
+              "RelativeToolTip": "Demo_Korbanov\\pages\\agents_list_page.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-28T12:49:08.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\App.xaml.cs",
               "RelativeDocumentMoniker": "Demo_Korbanov\\App.xaml.cs",
@@ -117,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\db\\Model1.edmx",
               "RelativeDocumentMoniker": "Demo_Korbanov\\db\\Model1.edmx",
@@ -129,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Demo_Korbanov\\MainWindow.xaml",
@@ -141,12 +174,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Demo_Korbanov\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "Demo_Korbanov\\MainWindow.xaml.cs*",
+              "ToolTip": "C:\\Users\\212109\\source\\repos\\Demo421\\Demo_Korbanov\\Demo_Korbanov\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Demo_Korbanov\\MainWindow.xaml.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAswBwAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T12:39:18.678Z",

@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Demo_Korbanov.pages;
 
 namespace Demo_Korbanov.ucs
 {
@@ -31,6 +32,19 @@ namespace Demo_Korbanov.ucs
             PhoneTb.Text = $"Номер: {agent.Phone}";
             PriorityTb.Text = $"Приоритет: {agent.Priority.ToString()}";
             DirectorTb.Text = $"Директор: {agent.DirectorName}";
+        }
+
+        private void FullInfpBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.frame.MainFrame.Navigate(new agent_full_info_page(agent));
+        }
+
+        private void DelBTn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Удалено!");
+            App.db.Agent.Remove(agent);
+            App.db.SaveChanges();
+            App.frame.MainFrame.Navigate(new agents_list_page());
         }
     }
 }

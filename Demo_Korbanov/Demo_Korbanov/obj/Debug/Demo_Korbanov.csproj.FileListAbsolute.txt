@@ -24,3 +24,5 @@ C:\Users\212109\source\repos\Demo421\Demo_Korbanov\Demo_Korbanov\obj\Debug\Demo_
 C:\Users\212109\source\repos\Demo421\Demo_Korbanov\Demo_Korbanov\obj\Debug\Demo_Korbanov.pdb
 C:\Users\212109\source\repos\Demo421\Demo_Korbanov\Demo_Korbanov\obj\Debug\ucs\agent_uc.g.cs
 C:\Users\212109\source\repos\Demo421\Demo_Korbanov\Demo_Korbanov\obj\Debug\ucs\agent_uc.baml
+C:\Users\212109\source\repos\Demo421\Demo_Korbanov\Demo_Korbanov\obj\Debug\pages\agent_full_info_page.g.cs
+C:\Users\212109\source\repos\Demo421\Demo_Korbanov\Demo_Korbanov\obj\Debug\pages\agent_full_info_page.baml

@@ -10,6 +10,23 @@
 
     <Grid Background="White">
         <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <TextBlock x:Name="DirectorTb" Margin="0,10,0,0" FontSize="20"
+            Foreground="#FFB175EE" FontWeight="Bold" TextWrapping="Wrap"
+            FontFamily="Century Gothic">Поиск</TextBlock>
+                <TextBox x:Name="SerachTb" FontSize="20" BorderThickness="2" Width="300"
+                         BorderBrush="#FFB175EE" Margin="5,0,0,0" TextChanged="SerachTb_TextChanged"></TextBox>
+                <TextBlock Margin="16,10,0,0" FontSize="20"
+                        Foreground="#FFB175EE" FontWeight="Bold" TextWrapping="Wrap"
+                        FontFamily="Century Gothic">Приоритет</TextBlock>
+                <ComboBox Width="200" x:Name="PriorityCb" FontSize="20"
+                        Foreground="#FFB175EE" Margin="10,0,0,0" SelectionChanged="PrirityCb_SelectionChanged">
+                    <ComboBoxItem>Все агенты</ComboBoxItem>
+                    <ComboBoxItem>Низкий</ComboBoxItem>
+                    <ComboBoxItem>Высокий</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+
 
             <ScrollViewer Height="400" VerticalScrollBarVisibility="Visible">
                 <WrapPanel  x:Name="agents_list_wp"></WrapPanel>
