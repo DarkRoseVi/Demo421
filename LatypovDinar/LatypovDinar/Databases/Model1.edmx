@@ -127,7 +127,7 @@
           </Key>
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
-          <Property Name="DefectedPercent" Type="float" Nullable="false" />
+          <Property Name="DefectedPercent" Type="float" />
         </EntityType>
         <EntityType Name="Shop">
           <Key>
@@ -292,7 +292,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_ProductSale_Product">
-          <End Role="Product" Type="Self.Product" Multiplicity="1" />
+          <End Role="Product" Type="Self.Product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="ProductSale" Type="Self.ProductSale" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Product">
@@ -524,7 +526,7 @@
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="DefectedPercent" Type="Double" Nullable="false" />
+          <Property Name="DefectedPercent" Type="Double" />
           <NavigationProperty Name="Product" Relationship="Self.FK_Product_ProductType" FromRole="ProductType" ToRole="Product" />
         </EntityType>
         <EntityType Name="Shop">
@@ -680,7 +682,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_ProductSale_Product">
-          <End Role="Product" Type="Self.Product" Multiplicity="1" />
+          <End Role="Product" Type="Self.Product" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="ProductSale" Type="Self.ProductSale" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Product">
@@ -695,7 +699,7 @@
           <End Role="Material" Type="Self.Material" Multiplicity="*" />
           <End Role="Supplier" Type="Self.Supplier" Multiplicity="*" />
         </Association>
-        <EntityContainer Name="DemoDemoExzBaseEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="DemoDemoExzBaseEntities2" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Agent" EntityType="Self.Agent" />
           <EntitySet Name="AgentPriorityHistory" EntityType="Self.AgentPriorityHistory" />
           <EntitySet Name="AgentType" EntityType="Self.AgentType" />
@@ -764,7 +768,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище DemoDemoExzBaseModelContainer" CdmEntityContainer="DemoDemoExzBaseEntities">
+        <EntityContainerMapping StorageEntityContainer="Хранилище DemoDemoExzBaseModelContainer" CdmEntityContainer="DemoDemoExzBaseEntities2">
           <EntitySetMapping Name="Agent">
             <EntityTypeMapping TypeName="DemoDemoExzBaseModel.Agent">
               <MappingFragment StoreEntitySet="Agent">

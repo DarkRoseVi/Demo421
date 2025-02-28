@@ -8,6 +8,6 @@ namespace LatypovDinar
     /// </summary>
     public partial class App : Application
     {
-        public static DemoDemoExzBaseEntities db = new DemoDemoExzBaseEntities();
+        public static DemoDemoExzBaseEntities2 db = new DemoDemoExzBaseEntities2();
     }
 }

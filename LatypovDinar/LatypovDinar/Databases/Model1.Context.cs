@@ -13,10 +13,10 @@ namespace LatypovDinar.Databases
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DemoDemoExzBaseEntities : DbContext
+    public partial class DemoDemoExzBaseEntities2 : DbContext
     {
-        public DemoDemoExzBaseEntities()
-            : base("name=DemoDemoExzBaseEntities")
+        public DemoDemoExzBaseEntities2()
+            : base("name=DemoDemoExzBaseEntities2")
         {
         }
     
