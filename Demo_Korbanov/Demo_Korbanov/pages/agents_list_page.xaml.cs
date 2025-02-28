@@ -32,12 +32,13 @@ namespace Demo_Korbanov.pages
         public void Refresh()
         {
             if (agents_list_wp == null) return;
-            string search = SerachTb.Text.ToLower().Trim();
+            string search = SerachTb.Text.ToLower();
             IEnumerable<Agent> list = App.db.Agent.ToList().OrderBy(c => c.Title);
             if (!string.IsNullOrEmpty(search))
             {
                 list = list.Where(c =>
                     c.Title.ToLower().Contains(search) ||
+                    
                     c.DirectorName.ToLower().Contains(search)
                 );
             }

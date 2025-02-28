@@ -9,7 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Demo_Korbanov;
 using Demo_Korbanov.pages;
 using System;
 using System.Diagnostics;
