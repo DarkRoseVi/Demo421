@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo_Korbanov.db;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,7 @@ namespace Demo_Korbanov
     /// </summary>
     public partial class App : Application
     {
+        public static demo421Entities db = new demo421Entities();
+        public static MainWindow frame;
     }
 }

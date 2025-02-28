@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Demo_Korbanov.pages;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +25,24 @@ namespace Demo_Korbanov
         public MainWindow()
         {
             InitializeComponent();
+            App.frame = this;
+            MainFrame.Navigate(new agents_list_page());
+            //var path = @"C:\Users\212109\Desktop\КОД 1.2._ВАРИАНТ_7\Сессия 1\agents_import\";
+            //foreach (var item in App.db.Agent.ToArray())
+            //{
+            //    if (item.Logo != null)
+            //    {
+            //        var fullPath = path + item.Logo;
+            //        item.image_bun = File.ReadAllBytes(fullPath);
+            //    }
+
+            //}
+            //App.db.SaveChanges();
+        }
+
+        private void agents_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new agents_list_page());
         }
     }
 }
