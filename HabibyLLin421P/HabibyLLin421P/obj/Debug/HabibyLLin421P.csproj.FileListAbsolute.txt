@@ -26,3 +26,15 @@ C:\Users\212120\source\repos\HabibyLLin421P\HabibyLLin421P\obj\Debug\MainControl
 C:\Users\212120\source\repos\HabibyLLin421P\HabibyLLin421P\obj\Debug\Pages\AgentListPage.baml
 C:\Users\212120\source\repos\HabibyLLin421P\HabibyLLin421P\obj\Debug\Pages\MenuPage.baml
 C:\Users\212120\source\repos\HabibyLLin421P\HabibyLLin421P\obj\Debug\HabibyLLin421P.csproj.CopyComplete
+C:\Users\212120\source\repos\Demo421\HabibyLLin421P\HabibyLLin421P\obj\Debug\HabibyLLin421P.csproj.AssemblyReference.cache
+C:\Users\212120\source\repos\Demo421\HabibyLLin421P\HabibyLLin421P\obj\Debug\MainControls\AgentsControl.g.cs
+C:\Users\212120\source\repos\Demo421\HabibyLLin421P\HabibyLLin421P\obj\Debug\MainWindow.g.cs
+C:\Users\212120\source\repos\Demo421\HabibyLLin421P\HabibyLLin421P\obj\Debug\Pages\AddEditAgentsPage.g.cs
+C:\Users\212120\source\repos\Demo421\HabibyLLin421P\HabibyLLin421P\obj\Debug\Pages\AgentListPage.g.cs
+C:\Users\212120\source\repos\Demo421\HabibyLLin421P\HabibyLLin421P\obj\Debug\Pages\MenuPage.g.cs
+C:\Users\212120\source\repos\Demo421\HabibyLLin421P\HabibyLLin421P\obj\Debug\App.g.cs
+C:\Users\212120\source\repos\Demo421\HabibyLLin421P\HabibyLLin421P\obj\Debug\HabibyLLin421P_Content.g.cs
+C:\Users\212120\source\repos\Demo421\HabibyLLin421P\HabibyLLin421P\obj\Debug\HabibyLLin421P_MarkupCompile.cache
+C:\Users\212120\source\repos\Demo421\HabibyLLin421P\HabibyLLin421P\obj\Debug\HabibyLLin421P_MarkupCompile.lref
+C:\Users\212120\source\repos\Demo421\HabibyLLin421P\HabibyLLin421P\obj\Debug\HabibyLLin421P.exe
+C:\Users\212120\source\repos\Demo421\HabibyLLin421P\HabibyLLin421P\obj\Debug\HabibyLLin421P.pdb

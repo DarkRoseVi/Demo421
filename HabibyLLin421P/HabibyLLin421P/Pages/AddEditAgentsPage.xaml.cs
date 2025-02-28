@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using EasyMCK;
+using HabibyLLin421P.MainBase;
+using HabibyLLin421P.Pages;
 
 namespace HabibyLLin421P.Pages
 {
@@ -20,9 +23,32 @@ namespace HabibyLLin421P.Pages
     /// </summary>
     public partial class AddEditAgentsPage : Page
     {
-        public AddEditAgentsPage()
+        Agent _agent;
+        public AddEditAgentsPage(Agent agent)
         {
             InitializeComponent();
+            _agent = agent;
+        }
+
+        private void LoadBtn_Click(object sender, RoutedEventArgs e)
+        {
+            BitmapImage bitmapImage = ImageManager.ImageFromPC();
+            MainImage.Source = bitmapImage;
+        }
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.mainFrame.Navigate(new AgentListPage());
+        }
+
+        private void DeleteBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SaveBtn_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
