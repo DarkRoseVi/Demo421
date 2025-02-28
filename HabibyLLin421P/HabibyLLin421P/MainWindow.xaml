@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HabibyLLin421P"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="1200">
+        Title="TopProga" Height="800" Width="1200" Icon="/Resources/picture.png">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1000"></ColumnDefinition>

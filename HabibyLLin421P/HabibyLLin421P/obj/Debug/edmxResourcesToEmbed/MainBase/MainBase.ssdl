@@ -15,13 +15,14 @@
     <Property Name="Email" Type="nvarchar" MaxLength="255" />
     <Property Name="Logo" Type="nvarchar" MaxLength="100" />
     <Property Name="Priority" Type="int" Nullable="false" />
+    <Property Name="LogoSource" Type="varbinary(max)" />
   </EntityType>
   <EntityType Name="AgentPriorityHistory">
     <Key>
       <PropertyRef Name="ID" />
     </Key>
     <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="AgentID" Type="int" Nullable="false" />
+    <Property Name="AgentID" Type="int" />
     <Property Name="ChangeDate" Type="datetime" Nullable="false" />
     <Property Name="PriorityValue" Type="int" Nullable="false" />
   </EntityType>
@@ -110,7 +111,7 @@
       <PropertyRef Name="ID" />
     </Key>
     <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="AgentID" Type="int" Nullable="false" />
+    <Property Name="AgentID" Type="int" />
     <Property Name="ProductID" Type="int" Nullable="false" />
     <Property Name="SaleDate" Type="date" Nullable="false" />
     <Property Name="ProductCount" Type="int" Nullable="false" />
@@ -130,7 +131,7 @@
     <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Title" Type="nvarchar" MaxLength="150" Nullable="false" />
     <Property Name="Address" Type="nvarchar" MaxLength="300" />
-    <Property Name="AgentID" Type="int" Nullable="false" />
+    <Property Name="AgentID" Type="int" />
   </EntityType>
   <EntityType Name="Supplier">
     <Key>
@@ -154,7 +155,9 @@
     <Property Name="definition" Type="varbinary(max)" />
   </EntityType>
   <Association Name="FK_Agent_AgentType">
-    <End Role="AgentType" Type="Self.AgentType" Multiplicity="1" />
+    <End Role="AgentType" Type="Self.AgentType" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="Agent" Type="Self.Agent" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="AgentType">
@@ -166,7 +169,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_AgentPriorityHistory_Agent">
-    <End Role="Agent" Type="Self.Agent" Multiplicity="1" />
+    <End Role="Agent" Type="Self.Agent" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="AgentPriorityHistory" Type="Self.AgentPriorityHistory" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Agent">
@@ -226,7 +231,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Product_ProductType">
-    <End Role="ProductType" Type="Self.ProductType" Multiplicity="0..1" />
+    <End Role="ProductType" Type="Self.ProductType" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="Product" Type="Self.Product" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="ProductType">
@@ -238,7 +245,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_ProductCostHistory_Product">
-    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="ProductCostHistory" Type="Self.ProductCostHistory" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Product">
@@ -262,7 +271,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_ProductMaterial_Product">
-    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="ProductMaterial" Type="Self.ProductMaterial" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Product">
@@ -274,7 +285,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_ProductSale_Agent">
-    <End Role="Agent" Type="Self.Agent" Multiplicity="1" />
+    <End Role="Agent" Type="Self.Agent" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="ProductSale" Type="Self.ProductSale" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Agent">
@@ -286,7 +299,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_ProductSale_Product">
-    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="ProductSale" Type="Self.ProductSale" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Product">
@@ -298,7 +313,9 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_Shop_Agent">
-    <End Role="Agent" Type="Self.Agent" Multiplicity="1" />
+    <End Role="Agent" Type="Self.Agent" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
     <End Role="Shop" Type="Self.Shop" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Agent">

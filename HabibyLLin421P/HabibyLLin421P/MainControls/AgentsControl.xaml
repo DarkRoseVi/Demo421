@@ -5,11 +5,15 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:HabibyLLin421P.MainControls"
              mc:Ignorable="d" 
-             d:DesignHeight="340" d:DesignWidth="240">
+             d:DesignHeight="340" d:DesignWidth="240" MouseDoubleClick="UserControl_MouseDoubleClick">
     <Grid Width="200" Height="300" Margin="20" Background="#FFFFE9F9">
+        <Image x:Name="LogoImage" Width="100" Height="100" Stretch="Fill"></Image>
         <Border BorderThickness="3" BorderBrush="#FFB175EE">
             <StackPanel>
                 <TextBlock x:Name="AgentName" Text="NAME" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock x:Name="TypeName" Text="NAME" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock x:Name="PhoneName" Text="NAME" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock x:Name="PriorName" Text="NAME" HorizontalAlignment="Center"></TextBlock>
             </StackPanel>
         </Border>
     </Grid>

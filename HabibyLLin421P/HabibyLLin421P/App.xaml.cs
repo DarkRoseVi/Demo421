@@ -1,4 +1,5 @@
 ﻿using HabibyLLin421P.MainBase;
+using HabibyLLin421P.Pages;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -17,5 +18,6 @@ namespace HabibyLLin421P
     {
         public static HabibyLLin421PBaseEntities myBase = new HabibyLLin421PBaseEntities();
         public static Frame mainFrame;
+        public static AgentListPage agentListPage;
     }
 }

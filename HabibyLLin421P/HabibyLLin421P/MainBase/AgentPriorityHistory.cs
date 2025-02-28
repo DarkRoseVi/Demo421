@@ -15,7 +15,7 @@ namespace HabibyLLin421P.MainBase
     public partial class AgentPriorityHistory
     {
         public int ID { get; set; }
-        public int AgentID { get; set; }
+        public Nullable<int> AgentID { get; set; }
         public System.DateTime ChangeDate { get; set; }
         public int PriorityValue { get; set; }
     

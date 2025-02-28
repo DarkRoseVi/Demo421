@@ -33,6 +33,7 @@ namespace HabibyLLin421P.MainBase
         public string Email { get; set; }
         public string Logo { get; set; }
         public int Priority { get; set; }
+        public byte[] LogoSource { get; set; }
     
         public virtual AgentType AgentType { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

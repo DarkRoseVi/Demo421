@@ -199,9 +199,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="MainBase\MainBase.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -213,6 +211,7 @@
       <DependentUpon>MainBase.edmx</DependentUpon>
       <LastGenOutput>MainBase.cs</LastGenOutput>
     </Content>
+    <Resource Include="Resources\picture.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

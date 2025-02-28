@@ -8,11 +8,29 @@
       d:DesignHeight="800" d:DesignWidth="1000"
       Title="AgentListPage">
 
-    <Grid>
+    <Grid Background="#FFE9F9">
         <Grid.RowDefinitions>
             <RowDefinition Height="150"></RowDefinition>
             <RowDefinition Height="650"></RowDefinition>
         </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" VerticalAlignment="Center" Orientation="Horizontal">
+            <TextBlock Text="Сортировка" FontSize="30"></TextBlock>
+            <ComboBox x:Name="SortSort" Width="300" Height="50" SelectionChanged="SortSort_SelectionChanged">
+                <ComboBoxItem Content="ОТ А до Я"></ComboBoxItem>
+                <ComboBoxItem Content="ОТ Я до А"></ComboBoxItem>
+                <ComboBoxItem Content="Биг скидка"></ComboBoxItem>
+                <ComboBoxItem Content="Смол скидка"></ComboBoxItem>
+                <ComboBoxItem Content="Биг приоритет"></ComboBoxItem>
+                <ComboBoxItem Content="Смол приоритет"></ComboBoxItem>
+                <ComboBoxItem Content="Все элементы"></ComboBoxItem>
+            </ComboBox>
+            <TextBlock Text="Поиск" FontSize="30"></TextBlock>
+            <TextBox x:Name="SearchSort" Width="100" Height="50" TextChanged="SearchSort_TextChanged"></TextBox>
+            <TextBlock Text="Тип" FontSize="30"></TextBlock>
+            <ComboBox x:Name="TypeSort" Width="300" Height="50" SelectionChanged="TypeSort_SelectionChanged">
+            </ComboBox>
+            <Button x:Name="Add" Width="100" Height="100" Content="Добавить" Click="Add_Click"></Button>
+        </StackPanel>
         <StackPanel Grid.Row="1">
             <ScrollViewer Height="650">
                 <WrapPanel x:Name="AgentPanel" Width="1000"></WrapPanel>
